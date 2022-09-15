@@ -1,0 +1,17 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th {
+    background-color: seagreen;
+}
+tr:nth-child(even){
+    background-color: mediumpurple;
+}
+tr {
+    background-color: mistyrose;
+}
+h1 {
+    text-align: center;
+}
