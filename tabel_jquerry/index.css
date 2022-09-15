@@ -1,0 +1,28 @@
+body {
+    background-color: green;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+th {
+    background-color: rgb(220, 19, 125);
+}
+tr:nth-child(even) {
+    background-color: rgb(220, 16, 110);
+}
+h1 {
+    text-align: center;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color:rgb(250, 77, 158);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
