@@ -1,0 +1,61 @@
+.kopsurat {
+    width: 10; 
+    margin: 0;
+}
+
+.judul{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+.table {
+    border-radius: 5px;
+    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .kopsurat {
+        width : 100%;
+        padding : 0px;
+    }
+    .judul {
+        font-size: 1rem;
+        text-align: left;
+
+    }
+    td {
+        font-size: 0.7rem
+    }
+    .table {
+        margin-left : 0px;
+    }
+  }
+
+@media only screen and (max-width: 720px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .kopsurat {
+        width : 100%;
+        padding : 0px;
+    }
+    .judul {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    td {
+        font-size: 0.8rem
+    }
+    .table {
+        margin-left : 5px;
+    }
+  }
