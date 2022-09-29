@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="raihan.css">
+    <title>Formulir pendaftaran PMB</title>
+</head>
+<body>
+  <div class="kopsurat">
+    <img src="kop.jpg" width="100%" />
+    <hr />
+    <h2 align="center" class="title">Formulir Pendaftaran Mahasiswa Baru</h2>
+    <h4 class="penulisan">Petunjuk Pengisian:</h4>
+    <ol>
+      <li>Isilah data dengan cermat, teliti dan benar</li>
+      <li>Isilah dengan huruf balok</li>
+      <li>
+        Salah penulisan pada pengisian formulir ini akan berakibat kesalahan
+        pada penulisan data Saudara pada ijazah
+      </li>
+    </ol>
+
+    <hr />
+      <h4 class="penulisan" style="margin-top: 0; margin-bottom: 0">
+        DATA DIRI :
+      </h4>
+
+    <div class="flex-parent">
+      <div class="item-flex">
+        <label class="label_flex" for="no_pendaftaran">1. Nomor Pendaftaran</label>
+        <div class="input-flex">
+          <input type="text" id="no_pendaftaran" name="nomor pendaftaran" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="nama">2. Nama</label>
+        <div class="input-flex">
+          <input type="text" id="nama" name="nama" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="tanggal ujian">3. Tanggal Ujian</label>
+        <div class="input-flex">
+          <input type="date" name="tanggal_ujian" id="tanggal_ujian" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="jenis Kelamin">4. Jenis Kelamin</label>
+        <div class="input-flex">
+          <input type='checkbox' name='Laki-laki' value='Laki-laki'>Laki-laki
+          <input type='checkbox' name='Perempuan' value='Perempuan'>Perempuan
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="Jenjang/jurusan">5. Jenjang/jurusan</label>
+        <div class="input-flex">
+            <select>
+              <option value=""></option>
+              <option value="Teknik Informatika(S1)">TI(S1)</option>
+              <option value="Rekayasa Perangkat Lunak(S1)">RPL(S1)</option>
+              <option value="Sistem Informasi (S1)">SI(S1)</option>
+              <option value="Komputerisasi Akutansi(D3)">KA(D3)</option>
+              <option value="Manajemen Informasi(D3)">MI(D3)</option>
+            </select> 
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="Waktu Kuliah">6. Waktu Kuliah</label>
+        <div class="input-flex">
+          <input type='checkbox' name='Pagi' value='Pagi'>Pagi
+          <input type='checkbox' name='Sore' value='Sore'>Sore
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="agama">7. Agama</label>
+        <div class="input-flex">
+          <input type="text" name="agama" id="agama" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for=" Tempat Lahir">8. Tempat Lahir</label>
+        <div class="input-flex">
+          <input type="text" name="tempat_lahir" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="tanggal_lahir">9. Tanggal Lahir</label>
+        <div class="input-flex">
+          <input type="date" name="tanggal_lahir" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="alamat">10. Alamat</label>
+        <div class="input-flex">
+          <input type="text" name="alamat" id="alamat" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="rt/rw">11. Rt/Rw</label>
+        <div class="input-flex">
+          <input type="text" name="alamat" id="rt/rw" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="kota">12. Kota</label>
+        <div class="input-flex">
+          <input type="text" name="alamat" id="kota" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="Kewarganegaraan">13. Kewarganegaraan</label>
+        <div class="input-flex">
+          <input type="checkbox" name="kewarganegaraan" value="WNI"> WNI
+          <input type="checkbox" name="kewarganegaraan" value="WNA"> WNA
+          <label for="golongan darah" class="gol_darah">golongan Darah :</label>
+          <select name="golongan darah" id="golongan darah">
+            <option value=""></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="AB">AB</option>
+            <option value="O">O</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="Nama Orang Tua / Wali">14. Nama Orang Tua/Wali</label>
+        <div class="input-flex">
+          <input type="text" name="alamat" id="wali" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="Pekerjaan Orang Tua">15. Pekerjaan Orang Tua</label>
+        <div class="input-flex">
+            <select>
+                <option value=""></option>
+                <option value="PNS">PNS</option>
+                <option value="Wirausaha">Wirausaha</option>
+                <option value="Wiraswasta">wiraswasta</option>
+                <option value="Lainnya">lainnya</option>
+            </select> 
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="Asal SMK/SMA/MA">16. Asal SMK/SMA/MA</label>
+        <div class="input-flex">
+          <input type="text" name="Asal SMK/SMA/MAt" id="Asal SMK/SMA/MA" />
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="Status Sekolah">17. Status Sekolah</label>
+        <div class="input-flex">
+          <input type="checkbox" name="Status Sekolah" value="Negeri"> Negeri
+          <input type="checkbox" name="Status Sekolah" value="Swasta"> Swasta
+          <input type="checkbox" name="Status Sekolah" value="Internasional"> Internasional
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="jurusan">18. Jurusan</label>
+        <div class="input-flex">
+          <input type="text" name="jurusan" id="jurusan"/>
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="no_ija">19. Nomor Ijazah</label>
+        <div class="input-flex">
+          <input type="text" name="tgl_lulus" id="no_ija"/>
+        </div>
+      </div>
+
+      <div class="item-flex">
+        <label class="label_flex" for="tgl_lulus">20. Tanggal Lulus</label>
+        <div class="input-flex">
+          <input type="text" name="tgl_lulus" id="tgl_lulus"/>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="flex-footer">
+      <p class="catatan">Catatan : *) Beri tanda silang sesuai dengan pilihan</p>
+      <div class="tanggal_pengiriman">
+        <p>Cirebon, <input type="date" name="tanggal" id="tanggal" style="width: 98px;"></p>
+        <p><input type="text" name="" placeholder="Nama Lengkap" style="width: 98px;"></p>
+      </div>
+    </div>
+    <button onclick="alert('oke')">Kirim</button>
+  </div>
+</body>
+
+</html>
